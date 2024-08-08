@@ -12,6 +12,8 @@ box-sizing: border-box;
 }
 
 body{
+  margin: 0;
+  padding: 0;
     font-family: "Acme", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -26,10 +28,14 @@ justify-content: center;
 
 .contenedor{
 max-width: 80%;
-width: 400px;
-height: 600px;
-margin: 0 auto;
-padding: 40px;
+max-width: 600px;
+
+margin: 40px auto;
+padding: 20px;
+background-color: rgba(255,255,255,0.2);
+border-radius: 15px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+backdrop-filter: blur(10px);
 
 }
 
